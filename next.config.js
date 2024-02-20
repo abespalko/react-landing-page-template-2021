@@ -18,7 +18,7 @@ module.exports = withBundleAnalyzer({
         headers: [
           {
             key: 'X-Frame-Options',
-            value: 'ALLOWALL',
+            value: '"SAMEORIGIN"',
           },
           {
             key: 'x-another-custom-header',
