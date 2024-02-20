@@ -15,6 +15,10 @@ module.exports = withBundleAnalyzer({
     {
       key: 'X-Frame-Options',
       value: 'ALLOW-FROM localhost:63342',
+    },
+    {
+      key: 'x-customer-id',
+      value: '123',
     }
   ],
 });
