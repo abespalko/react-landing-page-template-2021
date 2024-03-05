@@ -11,7 +11,7 @@ class MyDocument extends Document {
         <body>
           <Main />
           <NextScript />
-          <script src="/assets/bound-360.min.js" async></script>
+          <script src="https://stage-admin-editor.bound360.com/editor-sdk/bound-360.min.js" async></script>
         </body>
       </Html>
     );
